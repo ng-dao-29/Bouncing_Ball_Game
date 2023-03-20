@@ -9,10 +9,8 @@ class Controlls {
     }
 
     keyboard() {
-
         document.onkeydown = (event) => {
             switch (event.key) {
-
                 case "ArrowLeft":
                     this.goleft = true;
                     break;
@@ -23,7 +21,6 @@ class Controlls {
 
             document.onkeyup = (event) => {
                 switch (event.key) {
-
                     case "ArrowLeft":
                         this.goleft = false;
                         break;
@@ -35,7 +32,3 @@ class Controlls {
         }
     }
 }
-
-
-//
-

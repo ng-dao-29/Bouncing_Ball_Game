@@ -1,26 +1,17 @@
-
 let canvat = document.getElementById('Canvas');
 let ctx = canvat.getContext('2d');
- // vẽ bóng
-let ball = new Ball(250,670,10,2,2);
+// vẽ bóng
+let ball = new Ball(250, 670, 10, 2, 2);
 //vẽ thanh đỡ
-let barr = new Bar(200,690,110,15,5);
-
-let brickk = new BrickDestroy(10,20,70,15,3);
-
-let brickk2 = new BrickDestroy(110,20,70,15,3);
-
-let brickk3 = new BrickDestroy(200,20,70,15,3);
-
-let brickk4 = new BrickDestroy(300,20,70,15,3);
-
-let brickk5 = new BrickDestroy(400,20,70,16,3);
+let barr = new Bar(200, 690, 110, 15, 5);
+let brickk = new BrickDestroy(10, 20, 70, 15, 3);
+let brickk2 = new BrickDestroy(110, 20, 70, 15, 3);
+let brickk3 = new BrickDestroy(200, 20, 70, 15, 3);
+let brickk4 = new BrickDestroy(300, 20, 70, 15, 3);
+let brickk5 = new BrickDestroy(400, 20, 70, 16, 3);
 
 
 let playgame = true;
-
-//xử lý game
-
 function handle() {
 
     if (playgame) {

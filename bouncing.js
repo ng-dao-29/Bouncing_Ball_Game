@@ -1,4 +1,3 @@
-
 class Ball {
     xBall
     yBall
@@ -59,8 +58,6 @@ class Ball {
 }
 
 
-
-
 // thuật toán va chạm giữa hình tròn và chữ nhật (đăng nghiên cứu)
 
 // Phương pháp: Gọi C là tâm và R là bán kính hình tròn. Ta sẽ tìm cách xác định điểm A là điểm gần nhất thuộc hình chữ nhật đến tâm C. Sau đó so sánh độ lớn của CA với R.
@@ -79,7 +76,6 @@ class Ball {
 //
 //
 //     Khi đã có điểm A, ta lại dùng công thức Pythagoras để so sánh với bán kính của hình tròn.
-
 
 
 // Circle.prototype.collideWithRect = function(rect){
